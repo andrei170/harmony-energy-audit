@@ -1,7 +1,7 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
-<meta name="robots" content="noindex,nofollow,noarchive,nosnippet">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Competitor Analysis — Harmony Energy Works</title><style>
+<meta name="robots" content="noindex,nofollow,noarchive,nosnippet">
+<title>Competitor Analysis &middot; Harmony Energy Works &middot; AG1 Consulting</title><style>
 :root{--bg:#0d1117;--panel:#161b22;--ink:#e6edf3;--mut:#9aa7b4;--line:#2a3340;--accent:#2f81f7;
   --good:#3fb950;--bad:#f85149;--gradF:#f85149;--gradD:#e8702a;--gradC:#d29922;--gradB:#3fb950;--gradA:#2ea043;}
 *{box-sizing:border-box;margin:0;padding:0}
@@ -91,7 +91,9 @@ footer{color:var(--mut);font-size:12.5px;text-align:center;padding:22px 0 40px;l
 @media(max-width:620px){.gmark .gm-lab{font-size:9px}.gmark .gm-val{font-size:16px}}
 
 /* ---------- injected asset nav ---------- */
-.agnav{position:sticky;top:0;z-index:80;background:rgba(13,17,23,.92);backdrop-filter:saturate(1.5) blur(10px);border-bottom:1px solid var(--line)}
+/* display/padding/margin are declared explicitly so a page carrying its own bare
+   nav{} element rule (concept mockups do) cannot restyle the AG1 bar. */
+.agnav{display:block;padding:0;margin:0;position:sticky;top:0;z-index:80;background:rgba(13,17,23,.92);backdrop-filter:saturate(1.5) blur(10px);border-bottom:1px solid var(--line)}
 .agnav .inner{max-width:1080px;margin:0 auto;padding:0 22px;display:flex;flex-wrap:wrap;align-items:center;gap:6px}
 .agnav a{display:inline-block;padding:12px 14px;font-size:14px;font-weight:600;color:var(--mut);text-decoration:none;border-bottom:2px solid transparent;transition:color .15s,border-color .15s}
 .agnav a:hover{color:var(--ink);border-bottom-color:var(--accent)}
@@ -130,8 +132,8 @@ footer{color:var(--mut);font-size:12.5px;text-align:center;padding:22px 0 40px;l
   ReVision Energy          774    1   6   yes   <span class="ok">yes</span>    <span class="ok">yes</span>     <span class="ok">yes</span>  no    no   <span class="ok">yes</span>   <span class="ok">yes</span>
 
   All fetched 28 September 2026. Words exclude scripts and markup.
-  <span class="ph">* Sunergy's site went down between that fetch and 30 September -- see Finding 2.
-    Their row is what a working competitor looked like, not a live one.</span>
+  <span class="ok">* Sunergy returned a brief server error mid-morning on 30 September and is
+    fully live. See Finding 2 -- we corrected an earlier reading of that.</span>
     </div>
     <div class="flag">
       <div class="lab">Six columns where you are the only &ldquo;no&rdquo;</div>
@@ -158,45 +160,48 @@ footer{color:var(--mut);font-size:12.5px;text-align:center;padding:22px 0 40px;l
       words.</b> That is three hundred more than yours. It is not a content mountain.</p>
       <p><b>What separates them is entirely the plumbing</b> &mdash; a description, a canonical, schema, a tag, a
       form and a phone link. Every one of those is a settings-and-afternoon job rather than a writing project.</p>
-      <p><b>So the realistic first target is ReVision, and now that Sunergy has gone dark it is the only target that
-      matters.</b> Match the plumbing and add three hundred words and you are structurally level with the biggest
-      name on this list.</p>
+      <p><b>So the realistic first target is ReVision, not Sunergy.</b> Match the plumbing and add three hundred
+      words and you are structurally level with the biggest name on this list, without trying to out-write the
+      longest page in the set.</p>
     </div>
   </div>
 </section>
 
 <section>
   <div class="wrap">
-    <div class="h">Finding 2 &mdash; The Best-Built Site We Measured Belongs To A Company That Is Gone</div>
+    <div class="h">Finding 2 &mdash; Sunergy Is The One Actually Competing For Attention, And We Owe You A Correction</div>
     <div class="code">
   Sunergy Solutions    2,790 words  ·  8 H2  ·  <span class="ok">Tag Manager + Meta pixel</span>
   sunergysolutionsllc.com/solar-installers-new-hampshire/
   A page built specifically for "solar installers New Hampshire"
 
-  <span class="ok">MEASURED AGAIN, 30 September 2026</span>
+  <span class="ok">CHECKED THREE TIMES, 30 September 2026</span>
 
-  sunergysolutionsllc.com   <span class="ph">HTTP 522 -- Cloudflare reached, origin server did not answer</span>
+  09:00  <span class="ph">HTTP 522</span>  Cloudflare reached, origin did not answer
+  <span class="ok">Later  HTTP 200  site fully up, 3,713 words, certificate valid to Dec 2026</span>
 
-  <span class="ok">You told us on the call they are out of business. The server agrees.</span>
-    </div>
-    <div class="win">
-      <div class="lab">This changes the shape of the whole page</div>
-      <p><b>We built this comparison on 28 September and Sunergy was the strongest site in it</b> &mdash; nearly three
-      thousand words aimed at a single search phrase, a Meta pixel, the lot. Then you told us they had gone.</p>
-      <p><b>We re-checked it this morning and the domain now returns a 522</b>, which means the front door answers but
-      nothing is behind it. That is what a site looks like when the hosting is still paid and the company is not
-      there.</p>
-      <p><b>So they are not a competitor. They are a vacancy.</b> Whatever attention that page was collecting for
-      &ldquo;solar installers New Hampshire&rdquo; is going to move, and the firms positioned for it will take it.</p>
+  <span class="ph">The 522 was a temporary hosting blip. It was not a closed company,
+  and an earlier version of this page said it was. That was our error.</span>
     </div>
     <div class="warn">
-      <div class="lab">What this does and does not tell us</div>
-      <p><b>A 522 means the server did not respond when we asked. It is strong corroboration, not a certificate.</b>
-      A site can 522 for a day and come back. We have not checked any companies register.</p>
-      <p><b>And a dead site does not vacate its rankings immediately.</b> Search engines keep showing pages for weeks
-      or months after the business behind them stops. This is an opening, not an empty field.</p>
-      <p><b>The wider point is the one you made, not us:</b> seventeen firms you service have gone the same way. This
-      is one of them, and it happens to be the one we had you measured against.</p>
+      <div class="lab">What we got wrong, and what it means</div>
+      <p><b>We checked this domain mid-morning, got a 522, and wrote that the server agreed with your account that
+      they had gone.</b> We re-checked before sending and the site is fully live, better built than when we first
+      measured it, with a certificate valid into December.</p>
+      <p><b>We are telling you because you would otherwise have taken that into a conversation.</b> A 522 means a
+      server did not answer for a moment. It does not mean a business has closed, and we should not have written it
+      that way.</p>
+      <p><b>Your account of their position still stands as yours.</b> You told us on the call they are out of
+      business. We have not checked any companies register and we cannot corroborate it from the website, because
+      the website is working. Those two things can both be true &mdash; a live site outlives a company by months.</p>
+    </div>
+    <div class="flag">
+      <div class="lab">So treat them as the real competitor on this page</div>
+      <p><b>Nearly three thousand words on a page targeting a single search phrase, plus a Meta pixel</b>, which
+      means they are running or preparing paid social. They are the only firm in this set doing both.</p>
+      <p><b>But they are selling the same thing as everyone else.</b> Their pitch is installation. Yours could be a
+      funded capital project, which is a different conversation with a different buyer &mdash; and that argument is
+      unaffected by any of the above.</p>
     </div>
   </div>
 </section>
@@ -258,7 +263,7 @@ footer{color:var(--mut);font-size:12.5px;text-align:center;padding:22px 0 40px;l
 
   Granite State Solar      <span class="ph">nothing on the pages measured</span>
   ReVision Energy          <span class="ph">nothing on the pages measured</span>
-  Sunergy Solutions        <span class="ph">is itself one of the dead companies</span>
+  Sunergy Solutions        <span class="ph">nothing on the pages measured</span>
 
   <span class="ok">Harmony Energy Works     already servicing them -- and not saying so anywhere</span>
 
